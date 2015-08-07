@@ -9,6 +9,7 @@ nav ul li {
     text-decoration: none;
     display: inline;
     background-color: black;
+    margin-left: 5em;
 }
 
 nav a {
@@ -22,7 +23,7 @@ nav a:hover {
 }
 
 nav a:visited {
-    color: purple;
+    color: #B500B5;
 }
 
 /* body */
@@ -31,6 +32,33 @@ body {
     background-color: maroon;
     color: white;
     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: silver;
+    font-size: 32pt;
+    font-weight: bolder;
+}
+
+a {
+    color: silver;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: gold;
+    color: white;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #B500B5;
+}
+
+h1, h2, h3, h4, h5, h6, dt {
+    color: grey;
+    font-weight: bold;
 }
 
 img {

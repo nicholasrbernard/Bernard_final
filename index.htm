@@ -15,6 +15,10 @@
         <title>The Hundred Years War</title>
     </head>
     <body>
+        <header>
+            <p>The Hundred Years War</p>
+        </header>
+
         <nav>
             <ul>
                 <li><a href = "index.htm" title = "Home">Home</a></li>
@@ -26,7 +30,21 @@
 
         <section id = "homepic">
             <p>
-                <img src = "pictures/franceProgression.jpg" alt = "France throughout wars" title = "France throughout wars" />
+                <img src = "pictures/franceProgression.jpg" alt = "France throughout wars" title = "France throughout wars" usemap = "#warsinfrance"/>
+                <map name = "warsinfrance">
+                    <area name = "france1360" shape = "rect"
+                        coords = "294, 2, 587, 394"
+                        href = "first_phase.htm"
+                        alt = "Edwardian Era War" title = "Edwardian Era War"/>
+                    <area name = "france1389" shape = "rect"
+                        coords = "294, 394, 0, 789"
+                        href = "second_phase.htm"
+                        alt = "Caroline War" title = "Caroline War"/>
+                    <area name = "france1453" shape = "rect"
+                        coords = "587, 394, 294, 789"
+                        href = "third_phase.htm"
+                        alt = "Lancasrian War" title = "Lancastrian War"/>
+                </map>
             </p>
         </section>
 
