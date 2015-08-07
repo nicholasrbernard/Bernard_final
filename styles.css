@@ -1,7 +1,9 @@
 /* nav bar */
 nav {
     background-color: black;
-    padding: .125em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: .1em;
 }
 
 nav ul li {
@@ -36,9 +38,12 @@ body {
 
 header {
     text-align: center;
-    color: silver;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    background-color: navy;
     font-size: 32pt;
     font-weight: bolder;
+    padding: .5em;
 }
 
 a {
