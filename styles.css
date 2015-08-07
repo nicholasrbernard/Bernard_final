@@ -1,66 +1,51 @@
 /* nav bar */
-
 nav {
-    background-color: aqua;
-    text-align: center;
-    padding: 0.25em;
+    background-color: black;
+    padding: .125em;
 }
 
 nav ul li {
-    backgound-color: red;
-    display: inline;
     text-align: center;
-}
-
-nav li a {
-    padding: 1em;
-    color: #3E93EC;
     text-decoration: none;
-    pading: 0.25em;
-    font-weight: bold;
+    display: inline;
+    background-color: black;
 }
 
-nav li a:hover{
-    color: yellow;
+nav a {
+
+}
+
+nav a:hover {
+    background-color: gold;
+    color: white;
     text-decoration: underline;
 }
 
-nav li a:visited{
-    color: #7C0E09;
+nav a:visited {
+    color: purple;
 }
 
 /* body */
 
 body {
-    background-color: gold;
-}
-
-a:link {
-    color: #3E93EC;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #3E93EC;
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #7C0E09;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    font-family: Arial, sans-serif;
-    float: right;
+    background-color: maroon;
+    color: white;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
 img {
-    float: left;
+    height: 710px;
+    width: 569px;
+    borderu8: solid thick blue;
+    margin-right: 10px;
+    margin-top: 2.5px;
 }
 
 .clear {
     clear: both;
 }
+
+/* sections */
 
 #homepic {
     float: left;
