@@ -1,0 +1,59 @@
+/* nav bar */
+
+nav {
+    background-color: aqua;
+    text-align: center;
+    padding: 0.25em;
+}
+
+nav ul li {
+    backgound-color: red;
+    display: inline;
+    text-align: center;
+}
+
+nav li a {
+    padding: 1em;
+    color: #3E93EC;
+    text-decoration: none;
+    pading: 0.25em;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+nav li a:visited{
+    color: #7C0E09;
+}
+
+/* body */
+
+body {
+    background-color: gold;
+}
+
+a {
+    color: #3E93EC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3E93EC;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #7C0E09;
+}
+
+h3, p {
+    color: black;
+    float: left;
+}
+
+#france1453 {
+    float: right;
+}
